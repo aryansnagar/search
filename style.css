@@ -45,34 +45,9 @@ body {
      outline: none;
 }
 
-#app {
-     width: 100%;
-     padding: 50px 0px 50px 0px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-}
 
-#app_heading {
-     margin: 50px 0px 50px 0px;
+#container_paragraph {
+     width: 300px;
+     margin: 20px 0px 0px 0px;
      padding: 0px;
-     font-family: monospace;
-     color: #333333;
-}
-
-#app_button {
-     width: 200px;
-     height: 50px;
-     background-color: #222222;
-     border: 1px solid #333333;
-     color: #ddd;
-     margin: 0px 0px 10px 0px;
-     font-family: monospace;
-     cursor: pointer;
-}
-
-#app_button:hover {
-     background-color: #181818;
-     transition: 0.2s;
 }
