@@ -10,8 +10,8 @@ searchInput.addEventListener("keypress", function (event) {
 
           if (searchTerm.toLowerCase().endsWith('.com') || searchTerm.toLowerCase().endsWith('.in') || searchTerm.toLowerCase().endsWith('.org')) {
                window.location.href = "http://" + searchTerm;
-          } else if (searchTerm.toLowerCase().startsWith('/')) {
-               var youtubeSearchUrl = "https://www.youtube.com/results?search_query=" + encodeURIComponent(searchTerm.substring(2));
+          } else if (searchTerm.toLowerCase().startsWith('/ ')) {
+               var youtubeSearchUrl = "https://www.bingewatch.to/results?search_query=" + encodeURIComponent(searchTerm.substring(2));
                window.location.href = youtubeSearchUrl;
           } else {
                var googleSearchUrl = "https://www.google.com/search?q=" + encodeURIComponent(searchTerm);
